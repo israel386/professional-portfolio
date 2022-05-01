@@ -243,3 +243,85 @@ footer nav ul li a:hover {
 }
 
 /* FOOTER STYLES END */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero-cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .projects-1 img {
+        width: 600;
+        height: auto;
+    }
+
+    .projects-2 img {
+        width: 1000;
+        height: auto;
+    }
+
+    .contact {
+        flex: 1 70%;
+    }
+
+    .email-underline {
+        font-size: 60px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .contact {
+        flex: 1 70%;
+    }
+
+    .email-underline {
+        font-size: 30px;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    .section-title {
+        width: 70%;
+    }
+
+    .contact {
+        flex: 1 70%;
+    }
+
+    .email-underline {
+        font-size: 30px;
+    }
+}
