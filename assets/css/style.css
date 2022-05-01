@@ -297,6 +297,11 @@ footer nav ul li a:hover {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+
+    .intro {
+        font-size: 70px;
+    }
+
     section {
         padding: 30px 15px;
     }
@@ -312,6 +317,10 @@ footer nav ul li a:hover {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+
+    .intro {
+        font-size: 60px;
+    }
 
     .section-title {
         width: 70%;
