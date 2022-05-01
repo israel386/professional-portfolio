@@ -1,0 +1,245 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #a5a5a5;
+    --tertiary-color: rgba(184, 16, 16, 0.5);
+    --quaternary-color: rgb(184, 16, 16)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* HEADER / NAV BAR STYLES START */
+header {
+    padding: 20px 35px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--primary-color);
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 50px;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.25);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.port {
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 7px 0;
+    background-color: #000000;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* HEADER / NAVBAR STYLES END */
+
+/* HERO / JUMBOTRON STYLES START */
+.hero {
+    height: 900px;
+    width: 100%;
+    background-image: url("../images/Best-68-Dope-Backgrounds-on-HipWallpaper-Dope-Wallpapers-.jpg");
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: local;
+    background-position: 80%;
+}
+
+
+.hero-cta {
+    width: 40%;
+    margin-top: 12%;
+    margin-left: 3%;
+    text-align: left;
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+
+.intro {
+    font-size: 80px;
+    color: var(--primary-color);
+    text-shadow: -4px -4px var(--tertiary-color);
+}
+
+.hero-cta p {
+    margin: 3px;
+    font-size: 11px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px var(--tertiary-color);
+}
+
+/* HERO / JUMBOTRON STYLES END */
+
+/* WORK STYLES START */
+.flex-row {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.section-title {
+    font-size: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px auto 0px auto;
+    width: 50%;
+    text-shadow: -4px -4px var(--tertiary-color);
+}
+
+.primary-border {
+    border-color: var(--primary-color);
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000000;
+    text-align: center;
+}
+
+.project-1 {
+    margin: 10px;
+    color: var(--primary-color);
+}
+
+.project-2 {
+    margin: 10px 40px;
+    color: var(--primary-color);
+}
+
+.projects h3 {
+    text-shadow: -2px -2px var(--tertiary-color);
+    margin: 20px;
+    font-size: 30px;
+}
+
+.projects img {
+    opacity: .8;
+}
+
+.projects img:hover {
+    opacity: 1;
+    text-shadow: 5px 5px rgba(255, 255, 255, 0.8);
+}
+
+/* WORK STYLES END */
+
+/* CONTACT STYLES START */
+.contact {
+    height: 900px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact h3 {
+    font-size: 60px;
+    text-shadow: -4px -4px var(--tertiary-color);
+}
+
+.email-underline {
+    font-size: 80px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.email {
+    color: var(--quaternary-color);
+}
+
+/* CONTACT STYLES END */
+
+/* FOOTER STYLES START */
+footer {
+    padding: 15px 5px;
+    display: column;
+    color: var(--quaternary-color);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+footer a {
+    color: var(--primary-color);
+}
+
+footer nav {
+    margin: 7px 0;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+footer nav ul li a {
+    padding: 8px 5px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* FOOTER STYLES END */
