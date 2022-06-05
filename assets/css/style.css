@@ -150,11 +150,15 @@ header nav ul li a:hover {
 .project-1 {
     margin: 10px;
     color: var(--primary-color);
+    width: "75%";
+    height: "auto";
 }
 
 .project-2 {
     margin: 10px 40px;
     color: var(--primary-color);
+    width: "650px";
+    height: "auto";
 }
 
 .projects h3 {
@@ -165,6 +169,11 @@ header nav ul li a:hover {
 
 .projects img {
     opacity: .8;
+}
+
+.trial2 {
+    width: 650px;
+    height: auto;
 }
 
 .projects img:hover {
@@ -276,16 +285,6 @@ footer nav ul li a:hover {
         width: 80%;
     }
 
-    .projects-1 img {
-        width: 600;
-        height: auto;
-    }
-
-    .projects-2 img {
-        width: 1000;
-        height: auto;
-    }
-
     .contact {
         flex: 1 70%;
     }
@@ -293,6 +292,7 @@ footer nav ul li a:hover {
     .email-underline {
         font-size: 60px;
     }
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -313,6 +313,11 @@ footer nav ul li a:hover {
     .email-underline {
         font-size: 30px;
     }
+
+    .trial2 {
+        width: 600px;
+        height: auto;
+    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -330,7 +335,36 @@ footer nav ul li a:hover {
         flex: 1 70%;
     }
 
+    .trial2 {
+        width: 450px;
+        height: auto;
+    }
+
     .email-underline {
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .intro {
+        font-size: 60px;
+    }
+
+    .section-title {
+        width: 70%;
+    }
+
+    .contact {
+        flex: 1 70%;
+    }
+
+    .trial2 {
+        width: 350px;
+        height: auto;
+    }
+
+    .email-underline {
+        font-size: 20px;
     }
 }
